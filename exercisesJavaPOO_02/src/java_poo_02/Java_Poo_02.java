@@ -10,7 +10,7 @@ d) Método area(): para calcular el área de la circunferencia (Area = π ∗ ra
 e) Método perimetro(): para calcular el perímetro (Perimetro = 2 ∗ π ∗ radio).
 */
 
-package javaPOO_02;
+package java_poo_02;
 
 import static java.lang.Math.PI;
 import java.util.Locale;

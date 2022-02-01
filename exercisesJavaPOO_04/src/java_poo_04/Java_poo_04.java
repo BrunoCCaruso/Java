@@ -10,12 +10,14 @@ rectángulo mediante asteriscos usando la base y la altura. Se deberán además 
 los métodos getters, setters y constructores correspondientes.
 Superficie = base * altura / Perímetro = (base + altura) * 2.
 */
-package javaPOO_04;
+package java_poo_04;
+
 
 public class Java_poo_04 {
 
    
     public static void main(String[] args) {
+        
         
     }
     

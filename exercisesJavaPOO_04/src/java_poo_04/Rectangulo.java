@@ -1,5 +1,5 @@
 
-package javaPOO_04;
+package java_poo_04;
 
 
 public class Rectangulo {

@@ -1,5 +1,5 @@
 
-package javaPOO_02;
+package java_poo_02;
 
 public class Circunferencia {
     

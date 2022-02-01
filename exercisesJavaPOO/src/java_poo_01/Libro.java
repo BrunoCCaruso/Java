@@ -1,5 +1,5 @@
 
-package javaPOO_01;
+package java_poo_01;
 
 public class Libro {
     

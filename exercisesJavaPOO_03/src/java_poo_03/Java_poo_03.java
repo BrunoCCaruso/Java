@@ -18,7 +18,7 @@ error se le informa al usuario. Si no, se hace la división y se devuelve el res
 al main.
 
 */
-package javaPOO_03;
+package java_poo_03;
 
 import java.util.Locale;
 import java.util.Scanner;

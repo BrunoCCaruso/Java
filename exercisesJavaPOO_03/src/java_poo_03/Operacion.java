@@ -1,5 +1,5 @@
 
-package javaPOO_03;
+package java_poo_03;
 
 
 public class Operacion {

@@ -7,7 +7,7 @@ datos al usuario y luego informar mediante otro método el número de ISBN, el t
 el autor del libro y el numero de páginas.
 */
 
-package javaPOO_01;
+package java_poo_01;
 
 import java.util.Locale;
 import java.util.Scanner;
