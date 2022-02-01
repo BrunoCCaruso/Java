@@ -49,7 +49,15 @@ public class Java_poo_08 {
         System.out.println("Ingrese una frase nuevamente: ");
         String frase2 = entrada.next();
         frase.compararLongitud(frase2);
-        
+        System.out.println("Ingrese otra frase: ");
+        String frase3 = entrada.next();
+        frase.unirFrases(frase3);
+        System.out.println("Ingrese una letra para reemplazar por las `a` de la frase ingresada: ");
+        String letra2 = entrada.next();
+        frase.reemplazar(letra2);
+        System.out.println("Ingrese una letra que quiera buscar dentro de la frase: ");
+        String letra3 = entrada.next();
+        frase.contiene(letra3);
     }
     
     

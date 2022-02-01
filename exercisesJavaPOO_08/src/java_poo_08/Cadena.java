@@ -67,17 +67,41 @@ public class Cadena {
         System.out.printf("La letra ingresada se repitió %d veces.\n", vContLetra);
 
     }
-    
-    
-    public void compararLongitud(String frase2){
-        
+
+    public void compararLongitud(String frase2) {
+
         if (frase2.length() == longitud) {
             System.out.println("Ambas frases tienen la misma longitud.");
         } else {
             System.out.println("Las frases no poseen la misma longitud.");
-            
+
         }
-                
+
     }
 
+    public void unirFrases(String frase3) {
+
+        System.out.printf("La frase nueva es: %S \n", frase + " " + frase3);
+
+    }
+
+    public void reemplazar(String letra2) {
+
+        String reemplazar = this.frase.replace("a", letra2.toLowerCase());
+        System.out.printf("La frase con el caracter reemplazado es: %s \n", reemplazar);
+
+    }
+
+    public boolean contiene(String letra3) {
+        if (frase.contains(letra3)) {
+            System.out.println("Se encontró la letra");
+        } else {
+            System.out.println("No se encontró la letra");
+        }
+        return frase.contains(letra3);
+    }
+    
+    
+    
+    
 }
