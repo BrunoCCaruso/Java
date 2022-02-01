@@ -22,25 +22,23 @@ encuentren en la frase, por algún otro carácter seleccionado por el usuario y
 mostrar la frase resultante.
 • Método contiene(String letra), deberá comprobar si la frase contiene una letra que
 ingresa el usuario y devuelve verdadero si la contiene y falso si no
-*/
+ */
 package java_poo_08;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-
 public class Java_poo_08 {
-
 
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in, "ISO-8859-1").useDelimiter("\n").useLocale(Locale.US);
-        
+
         Cadena frase = new Cadena();
-        
+
         System.out.println("Ingrese una frase");
         frase.setFrase(entrada.next());
         frase.setLongitud(frase.getFrase().length());
-        
+
         frase.mostrarVocales();
         frase.invertirFrase();
         System.out.println("Ingrese una letra a buscar en la frase ingresada: ");
@@ -59,8 +57,5 @@ public class Java_poo_08 {
         String letra3 = entrada.next();
         frase.contiene(letra3);
     }
-    
-    
-    
-    
+
 }

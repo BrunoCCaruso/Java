@@ -18,7 +18,12 @@ public class Java_poo_04 {
    
     public static void main(String[] args) {
         
-        
+        Rectangulo rectangulo = new Rectangulo(0,0);        
+        rectangulo.creacionRectangulo();
+        rectangulo.calcularSuperficie();
+        rectangulo.calcularPerimetro();
+        rectangulo.dibujarRectangulo();
+    
     }
     
 }
