@@ -36,11 +36,7 @@ public class ExercisesJavaPOO_11 {
         int difAnio = Math.abs(fecha.getYear() - (fechaActual.getYear()+1900));
         int difMes = Math.abs(fecha.getMonth() - (fechaActual.getMonth()+1));
         int difDia = Math.abs(fecha.getDate() - fechaActual.getDate());
-        
-        System.out.println(difAnio);
-        System.out.println(difMes);
-        System.out.println(difDia);
-        
+                        
         if (difDia > 365) {
             difAnio++;
             if (difMes > 12) {
