@@ -25,6 +25,15 @@ public class ExercisesJavaPOO_05 {
    
     public static void main(String[] args) {
        
+        Cuenta cuenta = new Cuenta();
+        cuenta.crearCuenta();
+       
+        cuenta.nuevoIngreso();
+        cuenta.retirar();
+        cuenta.extraccionRapida();
+        cuenta.consultarSaldo();
+        cuenta.consultarDatos();
+        
     }
     
 }
