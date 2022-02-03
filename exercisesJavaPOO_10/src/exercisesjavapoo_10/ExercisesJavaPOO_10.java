@@ -22,42 +22,46 @@ public class ExercisesJavaPOO_10 {
         
         double[] A = new double[50];
         double[] B = new double[20];
-         
-        for (int i = 0; i < A.length-1; i++) {
+        
+        System.out.println("VECTOR A Random");
+        
+        for (int i = 0; i < A.length; i++) {
             A[i]= Math.round(Math.random()*10);
             System.out.print("["+A[i]+"]");
         }
         
+        System.out.println("\nVECTOR A ORDENADO menor a mayor");
         Arrays.sort(A); /// Ordenado de menor a mayor
         
-        System.out.println("");
-        
-        for (int i = 0; i < A.length-1; i++) {
+               
+        for (int i = 0; i < A.length; i++) {
             System.out.print("["+A[i]+"]");
         }
         
-        for (int i = 0; i < B.length-1; i++) {
+        
+        for (int i = 0; i < B.length; i++) {
             
             if (i<10) {
                 B[i]=A[i];
             }else{
                 B[i]=0.5;
             }
-                        
+                 
         }
+        
         
         
         ///////////// MOSTRAR ARREGLOS
         System.out.println("");
         System.out.println("VECTOR A\n");
         
-        for (int i = 0; i < A.length-1; i++) {
+        for (int i = 0; i < A.length; i++) {
             System.out.print("["+A[i]+"]");
         }
         System.out.println("");
         System.out.println("VECTOR B \n");
         
-        for (int i = 0; i < B.length-1; i++) {
+        for (int i = 0; i < B.length; i++) {
             System.out.print("["+B[i]+"]");
         }
         

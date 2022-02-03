@@ -40,13 +40,13 @@ public class Matematica {
     public void calcularPotencia(){
         
         
-        System.out.println(Math.pow(Math.max(Math.round(num1), Math.round(num2)),Math.min(Math.round(num1), Math.round(num2))));
+        System.out.println("El mayor número elevado al menor número es: "+Math.pow(Math.max(Math.round(num1), Math.round(num2)),Math.min(Math.round(num1), Math.round(num2))));
        
     }
     
     public void calculaRaiz(){
         
-        System.out.println(Math.sqrt(Math.min(Math.abs(num1),Math.abs(num2))));
+        System.out.println("La raíz cuadrada del menor número ingresado es: "+Math.sqrt(Math.min(Math.abs(num1),Math.abs(num2))));
                 
     }
     

@@ -44,9 +44,8 @@ public class ExercisesJavaPOO_11 {
             }
         }
         
-        System.out.printf("Existen %d años de diferencia entre la fecha ingresada y la actual \n",difAnio);  ///Solo éste pide la consigna
-        System.out.printf("Existen %d meses de diferencia entre la fecha ingresada y la actual \n",difMes);
-        System.out.printf("Existen %d dias de diferencia entre la fecha ingresada y la actual \n",difDia);
+        System.out.printf("Existen %d años de diferencia entre la fecha ingresada y la actual \n",difAnio);  
+        
     
     }
 }
