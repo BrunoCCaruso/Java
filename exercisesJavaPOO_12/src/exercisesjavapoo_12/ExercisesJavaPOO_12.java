@@ -28,10 +28,13 @@ public class ExercisesJavaPOO_12 {
     public static void main(String[] args) {
         
         Persona person = new Persona();
-       
+        
         person.crearPersona();
         person.mostrarPersona();
+             
         
     }
+    
+    
     
 }
